@@ -1,7 +1,9 @@
-# Reporting Security Issues
+# High Vulnerability - nth-check Regular Expression Denial of Service (ReDoS)
 
-If you believe you have found a security vulnerability in Create React App, we encourage you to let us know right away. We will investigate all legitimate reports and do our best to quickly fix the problem.
 
-Please refer to the following page for our responsible disclosure policy, reward guidelines, and those things that should not be reported:
+react-scripts dependency package used nth-check@1.0.2 which is having high Vulnerability. Buth nth-check upgraded version has no vulnerability. 
+So please check the possibility to fix this vulnerability.
 
-https://www.facebook.com/whitehat
+Path:
+react-scripts@5.0.1 › @svgr/webpack@5.5.0 › @svgr/plugin-svgo@5.5.0 › svgo@1.3.2 › css-select@2.1.0 › nth-check@1.0.2
+
